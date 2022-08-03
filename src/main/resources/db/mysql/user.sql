@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS innkeeper;
+
+ALTER DATABASE innkeeper
+  DEFAULT CHARACTER SET utf8
+  DEFAULT COLLATE utf8_general_ci;
+
+GRANT ALL PRIVILEGES ON innkeeper.* TO 'innkeeper'@'%';

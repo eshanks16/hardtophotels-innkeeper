@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html xmlns:th="https://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'home')}">
+
+  <body>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h3>Welcome to InnKeeper by Hardtop Hotels.</h3>
+      </div>
+    </div>
+    <br></div>
+    
+    
+    <div class="container">
+        <div class="col-md-auto">
+          <img class="img-fluid" src="../static/resources/images/hardTopHotel.png" th:src="@{/resources/images/hardTopHotel.png}"/>
+        </div>
+    </div>
+    <br />
+    <br />
+
+  
+  </body>
+
+</html>
